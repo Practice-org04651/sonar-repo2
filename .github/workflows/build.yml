@@ -6,6 +6,10 @@ on:
       - master
       - Dev
       - sonar
+  pull_request:
+    branches: 
+      - master 
+  workflow_dispatch:
 
 jobs:
    build:  
